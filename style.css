@@ -1,0 +1,59 @@
+*{margin: 0px;
+  padding: 0px;
+  
+}
+body {
+    font-size: 15pt;
+    padding:0px;
+    margin:0px;
+    background:blue;
+    display: grid;
+    justify-content: center
+}
+table {
+  width:300px;
+  border: 0px solid black;
+  background: blue;
+  align-content: center
+}
+td{border-radius: 5px;
+  border:1px solid cyan;
+  color: cyan;
+  font-weight: bold;
+  
+}
+
+.you{width:35%}
+.yourscore{width:10%}
+.versus{width:10%}
+.compscore{width:10%}
+.computer{width:35%}
+
+.canvas{
+  border-right:1px solid blue;
+  border-left: 1px solid blue;
+  border-top:2px solid blue;
+  border-bottom:2px solid blue;
+  transform: rotate(-90deg)
+}
+div{
+  width:100%;
+display: flex;
+justify-content:center;
+  margin-top: 20px;
+}
+
+input {
+  height:100px;
+  width:50%;
+  border: 1px solid blue;
+  margin-top: 10px;
+  font-size: 30px;
+  font-weight: bold;
+  color: blue;
+  background: lightcyan;
+  transition: 0.2s ease-in-out
+}
+input:hover{
+  background:cyan
+}
